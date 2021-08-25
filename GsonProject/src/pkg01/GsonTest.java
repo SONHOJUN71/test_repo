@@ -107,6 +107,8 @@ public class GsonTest {
 		// 위에서 가공하고 jsonObjects에 담은 데이터를 Json형식으로 getValue(string)에 담는다
 
 		getValue = gson.toJson(jsonObjects);
+		
+		System.out.println(" three git push");
 
 	}
 
